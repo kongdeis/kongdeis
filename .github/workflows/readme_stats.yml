@@ -5,6 +5,9 @@ on:
     - cron: "0 0 * * *"  # 매일 UTC 00:00 (KST 09:00) 자동 실행
   workflow_dispatch:      # Actions 탭에서 수동 실행 가능
 
+permissions:
+  contents: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest
