@@ -53,7 +53,7 @@
   * 홈 화면에서 유물을 무작위로 추천하고, 상세 정보 조회 및 방문 기록 기능 제공
   * 공공 API 연동을 통한 실시간 데이터 처리 및 사용자 중심 UI/UX 구현
 
-* **[ChefKit Backend](https://github.com/kongdeis/pf-chefkit-backend)** | 쉐프의 밀키트 주문 관리 REST API 서버
+* **[ChefKit Backend](https://github.com/kongdeis/pf-chefkit-backend)** | 셰프의 밀키트 주문 관리 REST API 서버
   * NestJS, Prisma, PostgreSQL 기반의 백엔드 구축
   * Prisma `$transaction`을 통한 밀키트 등록/주문 시 가격 데이터 일관성 보장
   * Role 기반 Authorization Guard를 활용한 사용자별 접근 제어 및 보안 구현
